@@ -47,7 +47,7 @@ Allocated slot number: 4
 Allocated slot number: 5
 Allocated slot number: 6
 Slot number 4 is free
-Slot No. Registration No Colour
+Slot No. Registration No. Colour
 1	KA-01-HH-1234	White
 2	KA-01-HH-9999	White
 3	KA-01-BB-0001	Black
@@ -124,7 +124,7 @@ status
 
 Output (tab delimited output):
 
-Slot No	Registration No.	Colour
+Slot No.	Registration No.	Colour
 
 1 		KA-01-HH- 1234		White
 
