@@ -15,10 +15,11 @@ We interact with the system via a simple set of commands which produce a specifi
 
 Example: File
 To run the program:
+```
 $ ./parking_lot file_inputs.txt
-
+```
 Input (contents of file):
-
+```
 create_parking_lot 6
 park KA-01-HH-1234 White
 park KA-01-HH-9999 White
@@ -34,9 +35,10 @@ registration_numbers_for_cars_with_colour White
 slot_numbers_for_cars_with_colour White
 slot_number_for_registration_number KA-01-HH-3141
 slot_number_for_registration_number MH-04-AY-1111
+```
 
 Output (to STDOUT):
-
+```
 Created a parking lot with 6 slots
 Allocated slot number: 1
 Allocated slot number: 2
@@ -57,12 +59,14 @@ KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333
 1, 2, 4
 6
 Not found
+```
 
 Example: Interactive
 
 To run the program and launch the shell:
-
+```
 $ ./parking_lot
+```
 
 Assuming a parking lot with 6 slots, the following commands should be run in sequence by typing them in at a prompt and should produce output as described below the command:
 
