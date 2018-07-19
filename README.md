@@ -23,14 +23,14 @@ Solution has implemented 4 classes:
 
 Each slot has a prev and next pointers to corresponding empty space to create a free list
 
-
+```
 --    -------  --  --  --
     O   x  x  O   O  O
 --    -------  --  --  --
     |
     |
    first
-
+```
 
 Here x are filled slots and O are empty slots. Empty slots are connected to each other as a doubly linked list. first points to first available free slot. Time Complexities of park and leave are O(1).
 HashMaps of registration number to slot numbers and Colours to set of slot numbers are maintained to get the registration_numbers_for_cars_with_colour, slot_numbers_for_cars_with_colour, slot_number_for_registration_number efficiently.
