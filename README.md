@@ -1,7 +1,7 @@
 Parking Lot Application
 =====================
 
-This application is a command line tool for managing parking lot. The problem is given in PROBLEM.MD.
+This application is a command line tool for managing parking lot. The problem is given in [PROBLEM.MD](PROBLEM.MD).
 The code is in node.js version v8.5.0. Please install node from https://nodejs.org before running ./parking_lot. parking_lot is the bash script which is doing the following tasks:
 - install dev dependencies for testing
 - checking and fixing code format
