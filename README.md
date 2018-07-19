@@ -37,7 +37,7 @@ HashMaps of registration number to slot numbers and Colours to set of slot numbe
 
 ##Running
 
-- Install node.js 8.5.0. from https://nodejs.org
+- Install node.js. from https://nodejs.org
 - Run:
 ```
 > ./parking_lot
