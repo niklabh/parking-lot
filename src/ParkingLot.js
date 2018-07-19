@@ -139,7 +139,7 @@ class ParkingLot {
    * Show status
    */
   status () {
-    console.log('Slot No.\tRegistration No\tColour')
+    console.log('Slot No.\tRegistration No.\tColour')
     for (let i = 1; i <= this.capacity; i++) {
       if (this.slots[i].car) {
         console.log([i, this.slots[i].car.numberPlate, this.slots[i].car.colour].join('\t'))
