@@ -70,6 +70,7 @@ $ ./parking_lot
 
 Assuming a parking lot with 6 slots, the following commands should be run in sequence by typing them in at a prompt and should produce output as described below the command:
 
+
 Input:
 create_parking_lot 6
 
