@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# install dependencies
+npm install
+
+# Check code format
+npm run lint || npm run lint-fix || { echo 'Code formatting not correct'; exit 1; }
+
+# run test suite 
+npm test || { echo 'Tests Failed'; exit 1; }
+
+# run the script
+node main.js $1
